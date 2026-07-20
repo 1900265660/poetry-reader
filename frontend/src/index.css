@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* 诗歌专用样式 */
+.poem-content {
+  font-family: 'Source Han Serif SC', 'Noto Serif SC', serif;
+  line-height: 2;
+  letter-spacing: 0.05em;
+}
+
+.poem-title {
+  font-family: 'LXGW WenKai', 'Ma Shan Zheng', cursive;
+}
