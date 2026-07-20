@@ -1,6 +1,7 @@
 import { useState, useCallback } from 'react';
 
-const API_BASE = 'http://localhost:8001/api';
+// Vite 环境变量：开发默认 localhost，Vercel 部署时设为 Railway 地址
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8001/api';
 
 export function useApi() {
   const [loading, setLoading] = useState(false);
